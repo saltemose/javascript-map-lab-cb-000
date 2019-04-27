@@ -30,6 +30,6 @@ const sortedRobots = robots.map(function(robot){
 
 const coloredZebraStripes = zebraStripes.map(function(stripe, index, array){
   var hue;
-  index % 2 == 0 ? hue = 'black' ; hue = 'white' ;
+  index % 2 == 0 ? hue = 'black' : hue = 'white' ;
   return Object.assign({}, {width: stripe.width, color: hue})
 })
