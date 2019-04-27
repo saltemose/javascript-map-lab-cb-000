@@ -30,7 +30,7 @@ const sortedRobots = robots.map(function(robot){
 
 const coloredZebraStripes = zebraStripes.map(function(stripe, index, array){
   var hue;
-  for (i=0; i<zebraStripes.length; i++){
+  for (i=0; i < zebraStripes.length; i++){
     if (i % 2 == 0){
       hue = 'black';
     }
