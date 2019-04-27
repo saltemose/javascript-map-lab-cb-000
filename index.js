@@ -28,7 +28,7 @@ const sortedRobots = robots.map(function(robot){
   return Object.assign({}, {name: robot.name, alliance: team});
 })
 
-const coloredZebraStripes = zebraStripes.map(function(zebraStripes){
+const coloredZebraStripes = zebraStripes.map(function(stripe, index, array){
   var hue;
   for (i=0; i<zebraStripes.length; i++){
     if (i % 2 == 0){
